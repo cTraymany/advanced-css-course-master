@@ -30,22 +30,24 @@ $color-black: 000;
     background-size: cover;
     background-position: top;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-    position: relative; }
-  
-  .header__logo-box {
-    position: absolute;
-    top: 4rem;
-    left: 4rem; }
-  
-  .header__logo {
+    position: relative;
+
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem; }
+      
+    &__logo {
     height: 3.5rem; }
-  
-  .header__text-box {
+    
+    &__text-box {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
+}
+  
   
   .heading-primary {
     color: $color-white;
@@ -110,11 +112,11 @@ $color-black: 000;
   
   .btn:hover {
     transform: translateY(-.3rem);
-    box-shadow: 0 1rem 2rem rgba($color-black, 0.2); }
+    box-shadow: 0 1rem 2rem rgba($color-black, .2); }
   
   .btn:active {
     transform: translateY(-.1rem);
-    box-shadow: 0 .5rem 1rem rgba($color-black, 0.2); }
+    box-shadow: 0 .5rem 1rem rgba($color-black, .2); }
   
   .btn--white {
     background-color: $color-white;
